@@ -7,12 +7,12 @@ DSL and the STOMP over WebSockets support.
 
 1. Install jruby-1.6.4 (and mayhap create a gemset as well):
 
-    $ rvm install jruby-1.6.4@tweetwatch
+       $ rvm install jruby-1.6.4@tweetwatch
     
 2. Install bundler and run `bundle`:
 
-    $ gem install bundler
-    $ bundle install 
+       $ gem install bundler
+       $ bundle install 
    
 3. Edit `config/torquebox.rb` and set your twitter username and 
    password in the `environment` block. You can also change the
@@ -21,8 +21,8 @@ DSL and the STOMP over WebSockets support.
 4. Deploy the app and run it via the `torquebox` command 
    (installed with the torquebox-server gem):
    
-    $ torquebox deploy .
-    $ torquebox run
+       $ torquebox deploy .
+       $ torquebox run
 
 4. Visit http://localhost:8080/ in a modern browser (I've 
    tested this app with Chrome and Safari).
