@@ -14,8 +14,8 @@ Then install bundler and run `bundle`:
     $ gem install bundler
     $ bundle install 
 
-This will install the torquebox-server gem, which is quite large,
-so this step may take a while.
+This will install the TorqueBox via torquebox-server gem (among other 
+things) which is quite large, so this step may take a while.
    
 Edit `config/torquebox.rb` and set your twitter username and 
 password in the `environment` block. You can also change the
