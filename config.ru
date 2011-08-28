@@ -1,0 +1,4 @@
+require 'tweetwatch'
+
+
+run TweetWatch
