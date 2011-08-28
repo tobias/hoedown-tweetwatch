@@ -1,7 +1,9 @@
 # TweetWatch w/WebSockets
 
 This is a TorqueBox demo app that uses the TorqueBox configuration
-DSL and the STOMP over WebSockets support.
+DSL and the STOMP over WebSockets support. It searches Twitter for
+a given set of search terms, converts them to Swedish chef, and 
+delivers them to any connected browsers via STOMP over WebSockets.
 
 ## To Deploy
 
@@ -32,6 +34,12 @@ Deploy the app and run it via the `torquebox` command
 Visit http://localhost:8080/ in a modern browser (I've 
 tested this app with Chrome and Safari).
    
+## To Learn More
+
+If you are interested in the TorqueBox WebSockets support, 
+read the blog post series on the subject at:
+http://torquebox.org/news/2011/08/23/stomp-chat-demo-part1/
+
 If you have any trouble, come find me in #torquebox on freenode.
 
 This app uses and includes the cheferize library: https://github.com/alexdean/cheferize
